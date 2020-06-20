@@ -1,10 +1,10 @@
 // ## Importe a biblioteca ##
 
-
+let rs = require("readline-sync")
 
 // ## Faça o código ##
 
-let rs = require("readline-sync")
+let nomeUsuario = rs.question("Digite seu nome por favor. \n")
 
 let lados = rs.questionFloat("Qual o tamanho dos lados do quadrado? \n")
 
